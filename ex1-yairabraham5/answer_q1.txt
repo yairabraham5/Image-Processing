@@ -1,0 +1,5 @@
+Answer to question 1:
+
+The procedure will crash because when we try to calculate the q_i of
+the grey level segment that has no pixels the denominator would
+be zero, thus it will raise an error of division by zero causing a crash.
