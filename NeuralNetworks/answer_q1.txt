@@ -1,0 +1,4 @@
+This implementation will work for the follow reasons. Firstly, the corruption function works because we want to
+"ruin" the resolution of the image. We do that by zooming out, when we zoom out we "erase" some of the pixels.
+After that we zoom in but we have to guess some of the pixels making the zoomed in image corrupted.
+It will work because the learning model is written like the deblurring learning model.

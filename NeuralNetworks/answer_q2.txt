@@ -1,0 +1,5 @@
+I tried by using the given parameters of the deblurring model, this worked out okay.
+I tweaked some of the parameters to get better results. I changed the patch size and the num_channels and this lowered
+the error rate of the training proccess but the training itself took longer.
+The final parameters are super_resolution_num_res_blocks = 4, batch_size = 100, steps_per_epoch = 100, num_epochs = 10,
+patch_size = 32, num_channels = 64.

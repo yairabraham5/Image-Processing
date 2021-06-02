@@ -1,0 +1,7 @@
+The effect of increasing the residual blocks makes the loss of the test set smaller in the deblurring model
+but not always in the loss in the denoising model. We can see in the deblur plot that as we increase the number of
+residual blocks the mse is smaller and also image wise when we look at a deblurred image as has been restored we can
+see a vast difference between a deblurring model that had lower residual blocks and one that had higher residual blocks.
+On the other hand we can see that there is some kind of overfitting in the denoising model as we get higher residual
+blocks the mse in the graph gets higher. In images we can see the image that was restored from the model with 5 residual
+blocks looked worse than a restored image that had 4 residual blocks.
