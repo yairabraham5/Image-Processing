@@ -1,0 +1,6 @@
+The reason we multiply each level with a coefficient because we want to control
+the way our picture works if we multiply the lower levels of the pyramids with
+coefficients that are bigger than one then the outlines will be much clearer
+and if we multiply it with a coefficients that are smaller we get blurrier picture
+but at the higher levels of the pyramid we give them a coefficient bigger than one
+we make the picture blurrier.

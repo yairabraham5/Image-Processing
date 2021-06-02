@@ -1,0 +1,11 @@
+Blending with small image filter we get poor blend(no smooth transition between the two images)
+and the image looks like two images stuck together. Blending with big image filters causes the imaage to look
+distorted and smeared meaning the edges between both images looks smeared  and not exact.
+The reasoning behind this is as follows for having a small image filter.
+Because when we build the laplacian pyramid we resize the picture and when we
+don't blur it properly we lose information so after building the laplacian pyramid and
+blending two images together we get no smooth transition because of the lose of information.
+Now for the reason behind the smeared edges in big image filters. When we have a big image filter
+we blur a pixel with a lot of other pixels that are not close to the pixel itself, that's why when
+blending two images together and have a large filter we lose the masking process of it because we blur the image with
+pixels that dont belong to the image.

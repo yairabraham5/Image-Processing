@@ -1,0 +1,9 @@
+The thing that happens when we blend two images when their pyramid levels are low is as follows. The blended image
+looks like two images that have been "taped" together. The reason behind it is because when the pyramid levels are
+really low we get two pictures that have a really high outlines so when we try and blend the two pictures together
+we  get some sort of "crash" between the two pictures causing it to looked "taped".
+The thing that happens when we blend two images when their pyramid levels are high is as follows.
+The blended image looks smeared in the edges between the two original images.
+The reason behind this is because when we make the pyramid longer we get pictures that are so blurred that we lose the
+theme of the image. So after we build the blended image we use levels of the pyramid that are blurred causing
+the final image to be blurred.
