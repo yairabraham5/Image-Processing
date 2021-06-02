@@ -1,0 +1,4 @@
+The difference between the two magnitudes is caused by the following reason:
+In the function cov_der and in fourier_dev we treat the image as a discrete function so we get an
+approximation to the derivative for both functions and because it's an approximation they will be different
+so that's why the two magnitudes are not the same

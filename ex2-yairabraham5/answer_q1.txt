@@ -1,0 +1,4 @@
+The reason for the difference between the files is as following.
+When we change the sample rate by 2 we take more samples on the same
+data causing higher frequencies to be more frequent. As for when we change the samples
+we are deleting part of the data(the high frequencies) so the lower frequencies are gone.

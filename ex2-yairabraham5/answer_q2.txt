@@ -1,0 +1,5 @@
+Both functions do the same thing change the samples. But the first
+spectrogram_resize is given a data and resize it to a new data but without phase shifting the
+frequencies causing the audio file to be muffled and unclear.
+On the other hand vocoder_resize does phase shift the frequencies after resizing the new data
+that's why the audio file isn't muffled and clearer.
